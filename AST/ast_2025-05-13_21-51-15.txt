@@ -1,0 +1,240 @@
+DOCUMENT
+  HEADER: 1
+    TEXT: 🧠 Documentación Avanzada en Markdown
+
+    HEADER: 2
+      TEXT: 📌 Introducción
+
+      TEXT: Este documento tiene como propósito demostrar el uso avanzado de Markdown incluyendo:
+
+      SEPARATOR: LINE_BREAK
+  LISTA_NO_ORDENADA: 1
+    TEXT: Formato de texto enriquecido
+
+  LISTA_NO_ORDENADA: 1
+    TEXT: Listas anidadas complejas
+
+  LISTA_NO_ORDENADA: 1
+    TEXT: Tablas con datos estructurados
+
+  LISTA_NO_ORDENADA: 1
+    TEXT: Citas anidadas y multilínea
+
+  LISTA_NO_ORDENADA: 1
+    TEXT: Separadores visuales
+
+  LISTA_NO_ORDENADA: 1
+    TEXT: Enlaces y estilo combinado
+
+    SEPARATOR: LINE_BREAK
+    SEPARATOR: LINE_BREAK
+    SEPARATOR: LINE_BREAK
+    HEADER: 2
+      TEXT: 📝 Formato de texto
+
+      FORMAT: BOLD
+      TEXT: , 
+      FORMAT: ITALICA
+      TEXT: , 
+      FORMAT: BOLD_ITALICA
+      TEXT: , 
+      FORMAT: STRIKETHROUGH
+      TEXT: .
+
+      SEPARATOR: LINE_BREAK
+  LISTA_NO_ORDENADA: 1
+    TEXT: Este es un ejemplo de 
+    FORMAT: BOLD_ITALICA
+    TEXT:  dentro de una lista.
+
+  LISTA_NO_ORDENADA: 1
+    TEXT: Otro ejemplo con 
+    FORMAT: ITALICA
+    TEXT: .
+
+  LISTA_NO_ORDENADA: 1
+    TEXT: Y finalmente una línea 
+    FORMAT: STRIKETHROUGH
+    TEXT:  y 
+    FORMAT: BOLD
+    TEXT:  al mismo tiempo.
+
+    SEPARATOR: LINE_BREAK
+    SEPARATOR: LINE_BREAK
+    SEPARATOR: LINE_BREAK
+    HEADER: 2
+      TEXT: 🔗 Enlaces útiles
+
+  LISTA_ORDENADA: 1
+    LINK
+      FORMAT: BOLD
+  LISTA_ORDENADA: 1
+    TEXT: Recursos adicionales:
+
+    LISTA_NO_ORDENADA: 2
+      LINK
+        TEXT: Guía de GitHub Markdown
+    LISTA_NO_ORDENADA: 2
+      LINK
+        TEXT: Stack Overflow
+      SEPARATOR: LINE_BREAK
+      SEPARATOR: LINE_BREAK
+      SEPARATOR: LINE_BREAK
+    HEADER: 2
+      TEXT: 🔢 Lista ordenada compleja
+
+  LISTA_ORDENADA: 1
+    TEXT: Tareas del proyecto
+
+    LISTA_ORDENADA: 2
+      FORMAT: BOLD
+      LISTA_NO_ORDENADA: 3
+        FORMAT: ITALICA
+      LISTA_NO_ORDENADA: 3
+        FORMAT: STRIKETHROUGH
+    LISTA_ORDENADA: 2
+      FORMAT: BOLD
+      LISTA_NO_ORDENADA: 3
+        TEXT: Diseño UI (
+        FORMAT: ITALICA
+        TEXT: )
+
+      LISTA_NO_ORDENADA: 3
+        TEXT: Diseño backend (
+        FORMAT: BOLD
+        TEXT: )
+
+    LISTA_ORDENADA: 2
+      TEXT: Desarrollo
+
+      LISTA_NO_ORDENADA: 3
+        TEXT: Backend con 
+        FORMAT: BOLD
+      LISTA_NO_ORDENADA: 3
+        TEXT: Frontend con 
+        FORMAT: ITALICA
+        TEXT:  y Supabase
+
+    LISTA_ORDENADA: 2
+      TEXT: Pruebas
+
+      LISTA_NO_ORDENADA: 3
+        TEXT: Unitarias
+
+      LISTA_NO_ORDENADA: 3
+        TEXT: Integración
+
+    LISTA_ORDENADA: 2
+      FORMAT: BOLD_ITALICA
+      SEPARATOR: LINE_BREAK
+      SEPARATOR: LINE_BREAK
+      SEPARATOR: LINE_BREAK
+    HEADER: 2
+      TEXT: ✅ Lista no ordenada compleja
+
+    LISTA_NO_ORDENADA: 2
+      TEXT: Actividades:
+
+      LISTA_NO_ORDENADA: 3
+        TEXT: 📌 Planeación
+
+      LISTA_NO_ORDENADA: 3
+        TEXT: 🛠️ Desarrollo
+
+        LISTA_NO_ORDENADA: 4
+          TEXT: 🔁 API REST
+
+        LISTA_NO_ORDENADA: 4
+          TEXT: 🎨 Interfaces gráficas
+
+      LISTA_NO_ORDENADA: 3
+        TEXT: 🔍 
+        FORMAT: ITALICA
+    LISTA_NO_ORDENADA: 2
+      TEXT: Entregables:
+
+      LISTA_NO_ORDENADA: 3
+        TEXT: Documento técnico (`.pdf`)
+
+      LISTA_NO_ORDENADA: 3
+        TEXT: Código fuente (`.zip`)
+
+      LISTA_NO_ORDENADA: 3
+        LINK
+          TEXT: Repositorio en GitHub
+        SEPARATOR: LINE_BREAK
+        SEPARATOR: LINE_BREAK
+        SEPARATOR: LINE_BREAK
+    HEADER: 2
+      TEXT: 📊 Tabla avanzada
+
+      TABLE_CELL
+        TEXT: Módulo
+      TABLE_CELL
+        TEXT: Responsable
+      TABLE_CELL
+        TEXT: Estado
+      TABLE_CELL
+        TEXT: Notas
+      TABLE_CELL
+        TEXT: Backend
+      TABLE_CELL
+        FORMAT: BOLD
+      TABLE_CELL
+        TEXT: ✅  Completado
+      TABLE_CELL
+        FORMAT: ITALICA
+      TABLE_CELL
+        TEXT: Frontend
+      TABLE_CELL
+        TEXT: Ana
+      TABLE_CELL
+        TEXT: 🟡 Parcial
+      TABLE_CELL
+        FORMAT: ITALICA
+      TABLE_CELL
+        TEXT: Base de datos
+      TABLE_CELL
+        FORMAT: STRIKETHROUGH
+        TEXT:  Laura
+      TABLE_CELL
+        TEXT: 🔴 Pendiente
+      TABLE_CELL
+        FORMAT: BOLD
+      SEPARATOR: LINE_BREAK
+    CITE: 2
+      TEXT: 💡 Nota: Usa 
+      FORMAT: BOLD
+      TEXT: , 
+      FORMAT: ITALICA
+      TEXT:  y 
+      FORMAT: STRIKETHROUGH
+      TEXT:  en celdas para claridad visual.
+
+      SEPARATOR: LINE_BREAK
+      SEPARATOR: LINE_BREAK
+      SEPARATOR: LINE_BREAK
+    HEADER: 2
+      TEXT: 📣 Citas complejas
+
+    CITE: 2
+      TEXT: "El software es como el sexo: es mejor cuando es libre."
+
+    CITE: 2
+      SEPARATOR: LINE_BREAK
+    CITE: 2
+      TEXT: — Linus Torvalds
+
+    CITE: 2
+      SEPARATOR: LINE_BREAK
+    CITE: 2
+      CITE: 3
+        TEXT: "La simplicidad es la máxima sofisticación."
+
+    CITE: 2
+      CITE: 3
+        TEXT: — 
+        FORMAT: ITALICA
+        SEPARATOR: LINE_BREAK
+        SEPARATOR: LINE_BREAK
+        SEPARATOR: LINE_BREAK
