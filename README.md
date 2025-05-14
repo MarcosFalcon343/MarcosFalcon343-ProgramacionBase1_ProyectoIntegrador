@@ -1,5 +1,15 @@
 # Analizador Léxico-Sintáctico para Markdown  
-**Descripción**: Herramienta para convertir archivos Markdown en tokens y un AST.  
+**Descripción**: El proyecto consiste en un traductor de Markdown a HTML implementado en Python nativo. Su objetivo es procesar archivos Markdown, validar su sintaxis mediante análisis léxico y sintáctico, y generar código HTML  estructurado en un futuro. El traductor soporta elementos esenciales de Markdown como:
+
+-	Encabezados (#, ##, etc.).
+-	Listas (ordenadas y no ordenadas, con anidamiento).
+-	Tablas (filas, celdas y separadores).
+-	Citas (>).
+-	Formato de texto: negritas (**), itálicas (*), tachado (~~), combinaciones (ej. ***).
+-	Enlaces ([texto](url)).
+-	Reglas horizontales (---).
+-	Saltos de línea.
+ 
 
 ## Información del Curso  
 - Materia: Programación de Sistemas de Base 1  
